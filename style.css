@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+#contenedor-unico{
+    display: flex; 
+    position: fixed; 
+    top: 300px; 
+    right: 100px; 
+    gap: 30px; 
+    justify-content: center;
+    align-items: center;
+    padding: 20px; 
+
+}
+
+.fila-1{
+     font-size: 70px; 
+     text-align: center;
+}
+
+
+.fila-2{
+     font-size: 20px; 
+     color: blueviolet; 
+    text-align: center;
+
+}
+
+.fila-3{
+    padding: 10px 0px; 
+    text-align: center;
+
+}
