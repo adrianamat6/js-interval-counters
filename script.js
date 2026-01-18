@@ -16,16 +16,15 @@ numeroTres = 0;
 
 let valor = 0; // Se declara fuera
 
-const ref_interval = setInterval(function() {
+const contador = setInterval(function() {
     nodoUno.innerHTML = `${valor}K+`;
     console.log("Actualizado a:", valor);
     
     // Si llegamos a 100, detenemos el intervalo
     if (valor >= numeroUnoFinal) {
-        clearInterval(ref_interval);
+        clearInterval(contador);
         console.log("¡Intervalo detenido!");
     }
-
     valor = valor + 1; 
 }, 20);
 
